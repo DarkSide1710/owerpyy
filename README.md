@@ -16,7 +16,7 @@ cd owerpyy
 1. sudo docker-compose build
 
 
-2. Команда для создания миграций приложения для базы данных: 
+2. Команда для создания миграций приложения для базы данных:<br>
 sudo docker-compose run web python manage.py migrate
 
 3. sudo docker-compose up
