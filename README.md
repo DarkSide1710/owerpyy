@@ -1,8 +1,6 @@
 # owerpyy
 API для системы опросов пользователей
 
-Документация API (автодокументирование на swagger (drf-yasg) доступно по адресу http://127.0.0.1:8000/swagger/ )
-
 Склонируйте репозиторий с помощью git
 
 git clone https://github.com/DarkSide1710/owerpyy.git
@@ -14,7 +12,6 @@ cd owerpyy
 Выполнить следующие команды:
 
 1. sudo docker-compose build
-
 
 2. Команда для создания миграций приложения для базы данных:<br>
 sudo docker-compose run web python manage.py migrate
@@ -30,6 +27,8 @@ Email address: <br>
 Password: ********<br>
 Password (again): ********<br>
 Superuser created successfully.<br>
+
+Документация API (автодокументирование на swagger (drf-yasg) доступно по адресу http://127.0.0.1:8000/swagger/ )
 
 Приложение будет доступно по адресу: http://127.0.0.1:8000/
 
