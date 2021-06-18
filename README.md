@@ -21,15 +21,15 @@ sudo docker-compose run web python manage.py migrate
 
 3. sudo docker-compose up
 
-4. Создание суперпользователя: 
+4. Создание суперпользователя:<br>
 docker exec -it "dockercontainerid" python manage.py createsuperuser
 
-Будут выведены следующие выходные данные. Введите требуемое имя пользователя, электронную почту и пароль:
-Username : admin
-Email address: 
-Password: ********
-Password (again): ********
-Superuser created successfully.
+Будут выведены следующие выходные данные. Введите требуемое имя пользователя, электронную почту и пароль:<br>
+Username : admin<br>
+Email address: <br>
+Password: ********<br>
+Password (again): ********<br>
+Superuser created successfully.<br>
 
 Приложение будет доступно по адресу: http://127.0.0.1:8000/
 
